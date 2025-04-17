@@ -65,7 +65,7 @@ export function isSolvable(grid: Grid): boolean {
 
 // Generates a random, solvable grid from an ordered grid
 export const generateSolvableGrid = (ordered: Grid): Grid => {
-  let g = shuffle(ordered);
+  const g = shuffle(ordered);
 
   // If not solvable, swap two non-null tiles to make it solvable
   if (!isSolvable(g)) {
