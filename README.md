@@ -14,6 +14,22 @@ This sliding puzzle game was developed as a Create Task submission for the AP Co
 - **Win Detection**: Automatically detects when the puzzle is solved
 - **Celebration Screen**: Displays statistics and congratulates the player upon completion
 
+## Demo Video
+
+The repository includes `example.mp4`, a demonstration video that showcases the sliding puzzle game in action. This video demonstrates:
+
+- The user interface and game board layout
+- How to interact with the puzzle by sliding tiles
+- The move counter and timer functionality
+- The win detection and celebration screen
+
+<video width="100%" controls>
+  <source src="example.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+This video serves as a visual representation of the computational artifact created for the AP CSP Create Task, illustrating both the functionality and user experience of the application.
+
 ## Technologies Used
 
 - **Next.js**: React framework for building the web application
